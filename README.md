@@ -14,8 +14,8 @@ Trade Bridge is a RESTful API service demonstrating comprehensive database relat
 ## Quick Start
 
 ### Prerequisites
-- Java 17+
-- PostgreSQL 13+
+- Java 21
+- PostgreSQL 18
 - Maven 3.6+
 
 ### Database Configuration
