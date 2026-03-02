@@ -1,11 +1,11 @@
-# supply_gate_26514
+# trade_bridge_26668
 
-## A robust Spring Boot backend for a trusted B2B marketplace connecting businesses with verified manufacturers and suppliers.
+## A Spring Boot project demonstrating database relationships and JPA functionalities
 
 ## Overview
-RESTful API service providing core marketplace functionality including user management, supplier verification, product catalog, and quotation system.
+RESTful API service demonstrating One-to-One, One-to-Many, and Many-to-Many relationships with sorting, pagination, and location-based queries.
 
- ## Tech Stack
+## Tech Stack
 Framework: Spring Boot 3.x
 
 Database: PostgreSQL
@@ -16,7 +16,7 @@ Validation: Spring Validation
 
 Documentation: Springdoc OpenAPI
 
- ## Quick Start
+## Quick Start
  
 Prerequisites:
 
@@ -29,13 +29,18 @@ Maven 3.6+
 ## API Documentation
 Once running, you can access the API docs at:
 
-Swagger UI: http://localhost:8080/swagger-ui.html
+Swagger UI: http://localhost:8081/swagger-ui.html
 
- ## Key Features
+## Key Features
 
-Supplier verification workflow
-
-Product catalog management
+- Five (5) entity tables with clear relationships
+- Location saving and retrieval
+- Sorting and Pagination implementation
+- Many-to-Many relationship (User-Store)
+- One-to-Many relationships (Store-Product, Product-Review)
+- One-to-One relationship (User-Location)
+- existBy() method implementation
+- Retrieve users by province code or province name
 
 ## ERD Diagram
 
