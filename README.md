@@ -79,6 +79,14 @@ mvn spring-boot:run
 - One user can write many reviews
 - Each review is written by one user
 
+**Many-to-Many (M:M):**
+🔹 users ↔ products
+
+A user can review many products
+
+A product can be reviewed by many users
+
+➡ M : M relationship
 ---
 
 ### 2. Implementation of Saving Location (2 Marks)
