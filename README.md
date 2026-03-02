@@ -80,11 +80,11 @@ mvn spring-boot:run
 - Each review is written by one user
 
 **Many-to-Many (M:M):**
-🔹 users ↔ products
+- users ↔ products
 
-A user can review many products
+-A user can review many products
 
-A product can be reviewed by many users
+-A product can be reviewed by many users
 
 ➡ M : M relationship
 ---
