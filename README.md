@@ -650,7 +650,7 @@ trade_bridge_26668/
 ---
 
 ## Author
-**Student Name:** [Your Name]
+**Student Name:** NDIKUMANA Norbert
 **Student ID:** 26668
 **Course:** Web Technologies
 **Semester:** JAN 2026
